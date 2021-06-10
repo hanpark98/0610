@@ -1,4 +1,5 @@
 html{height: 100%; margin: 0;}
+section{margin-bottom: 500px;}
 
 header{width: 100%;height: 250%; margin: 0;}
 	body{margin: 0; background: none; width:100%; height: 100%}
@@ -8,8 +9,8 @@ header{width: 100%;height: 250%; margin: 0;}
 text-align: left; padding-right: 0;}
   h2{}
   h3{font-family: Noto Sans KR;font-size: 2.5em; font-weight: 900;}
+  h4{font-family: Noto Sans KR;font-size: 1.3em; font-weight: 500; margin: 0; padding: ;}
   p{font-family: Noto Sans KR;font-size: 1.3em; font-weight: 500; margin: 0; padding: ;}
-
 	.headerbg {background-image: url(../bg/header.svg); 
     height: 100%; 
     background-repeat: no-repeat;
@@ -20,17 +21,17 @@ text-align: left; padding-right: 0;}
 	
 	#navbar {
   overflow: hidden;
-  background-color: #333;\
+  background-color: white;
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1em;
 }
 
 #navbar a:hover {
@@ -60,13 +61,41 @@ text-align: left; padding-right: 0;}
   padding-top: 60px;
 }
 
+.headerbg{padding-top:  500px;}
+
 .about{margin: auto;
+    margin-top: 800px;
   padding: 25px;
  width:50%; 
  background: rgba(255,255,255,0.5);
  text-align: center; 
 
     border-radius: 25px;}
+
+
+.artist{margin: auto;
+  padding: 25px;
+ width:70%; 
+ height: 100%;
+ background: rgba(100,200,160,0.5);
+ text-align: center; 
+ margin-right: 5px;
+
+    border-radius: 25px;}
+
+
+.photo{margin: auto;
+  padding: 25px;
+  margin-left: 6px;
+ width:70%; 
+ height: 100%;
+ background: rgba(100,200,150,0.5);
+ text-align: center; 
+
+    border-radius: 25px;}
+
+    .insta{width: 10%; height: 10%;}
+    .twitter{}
 
     .row{display: flex; padding: 0px 5px; margin-top: 0px; margin-bottom: 20px; }
     .col-1{width: calc(100% / 8 * 1 - 10px); background: none; 
@@ -84,4 +113,4 @@ text-align: left; padding-right: 0;}
     .col-7{width: calc(100% / 8 * 7 - 10px); background: none;
         margin: 0px 5px;}
     .col-8{width: calc(100% / 8 * 8 - 10px); background: none;
-        margin: 0px 5px;}
+        margin: 0px 5px;]
