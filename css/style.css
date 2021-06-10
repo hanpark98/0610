@@ -4,11 +4,11 @@ header{width: 100%;height: 250%; margin: 0;}
 	body{margin: 0; background: none; width:100%; height: 100%}
 	img{display: block; margin: auto;}
 
-  h1{font-family: 'Roboto';font-size: 12em; font-weight: 900;
-text-align: center; padding-right: 100px;}
+  h1{font-family: 'Roboto';font-size: 9vw; font-weight: 900;
+text-align: left; padding-right: 0;}
   h2{}
   h3{font-family: Noto Sans KR;font-size: 2.5em; font-weight: 900;}
-  p{font-family: Noto Sans KR;font-size: 1.3em; font-weight: 500;}
+  p{font-family: Noto Sans KR;font-size: 1.3em; font-weight: 500; margin: 0; padding: ;}
 
 	.headerbg {background-image: url(../bg/header.svg); 
     height: 100%; 
